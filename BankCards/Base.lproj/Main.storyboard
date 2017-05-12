@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="adA-5V-5LO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="2yI-25-aab">
+            <objects>
+                <navigationController toolbarHidden="NO" id="adA-5V-5LO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="XUx-jC-lh8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eXk-GB-iqZ" kind="relationship" relationship="rootViewController" id="vHb-TC-3Wa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFy-ED-ksT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-855" y="102"/>
+        </scene>
+        <!--判断银行卡类型-->
+        <scene sceneID="AUc-Z7-t1d">
+            <objects>
+                <tableViewController id="eXk-GB-iqZ" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Cgu-JN-kie">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cardNumberCell" rowHeight="70" id="mRg-7I-6xO">
+                                <rect key="frame" x="0.0" y="50" width="600" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mRg-7I-6xO" id="wTZ-uL-gNI">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P4F-gK-ia5">
+                                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="银行卡号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUb-RP-v2T">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="P4F-gK-ia5" secondAttribute="trailing" constant="25" id="IpZ-aL-OsP"/>
+                                        <constraint firstItem="P4F-gK-ia5" firstAttribute="leading" secondItem="hUb-RP-v2T" secondAttribute="trailing" constant="10" id="V8F-U3-yh7"/>
+                                        <constraint firstItem="P4F-gK-ia5" firstAttribute="leading" secondItem="hUb-RP-v2T" secondAttribute="trailing" constant="10" id="WSj-rf-7W6"/>
+                                        <constraint firstItem="hUb-RP-v2T" firstAttribute="leading" secondItem="wTZ-uL-gNI" secondAttribute="leadingMargin" constant="40" id="eJO-zm-fA6"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="hUb-RP-v2T" secondAttribute="bottom" constant="3" id="f4K-Xf-Qvo"/>
+                                        <constraint firstItem="hUb-RP-v2T" firstAttribute="top" secondItem="wTZ-uL-gNI" secondAttribute="topMargin" constant="3" id="jc8-GC-uri"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="P4F-gK-ia5" secondAttribute="bottom" constant="-2" id="rHq-Js-q41"/>
+                                        <constraint firstItem="P4F-gK-ia5" firstAttribute="top" secondItem="wTZ-uL-gNI" secondAttribute="topMargin" constant="-1" id="yYm-gJ-Qh4"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="P4F-gK-ia5"/>
+                                            <exclude reference="hUb-RP-v2T"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <exclude reference="IpZ-aL-OsP"/>
+                                            <exclude reference="V8F-U3-yh7"/>
+                                            <exclude reference="WSj-rf-7W6"/>
+                                            <exclude reference="rHq-Js-q41"/>
+                                            <exclude reference="yYm-gJ-Qh4"/>
+                                            <exclude reference="eJO-zm-fA6"/>
+                                            <exclude reference="f4K-Xf-Qvo"/>
+                                            <exclude reference="jc8-GC-uri"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="P4F-gK-ia5"/>
+                                            <include reference="hUb-RP-v2T"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <include reference="IpZ-aL-OsP"/>
+                                            <include reference="V8F-U3-yh7"/>
+                                            <include reference="WSj-rf-7W6"/>
+                                            <include reference="rHq-Js-q41"/>
+                                            <include reference="yYm-gJ-Qh4"/>
+                                            <include reference="eJO-zm-fA6"/>
+                                            <include reference="f4K-Xf-Qvo"/>
+                                            <include reference="jc8-GC-uri"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cardTypeCell" rowHeight="70" id="AxO-9c-zbb">
+                                <rect key="frame" x="0.0" y="120" width="600" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AxO-9c-zbb" id="JJA-me-ewB">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRn-Tb-scm">
+                                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="mRn-Tb-scm" secondAttribute="trailing" constant="40" id="2fG-7y-uML"/>
+                                        <constraint firstItem="mRn-Tb-scm" firstAttribute="leading" secondItem="JJA-me-ewB" secondAttribute="leadingMargin" constant="40" id="Ctc-KZ-WaP"/>
+                                        <constraint firstItem="mRn-Tb-scm" firstAttribute="top" secondItem="JJA-me-ewB" secondAttribute="topMargin" constant="3" id="Ith-B5-i4V"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="mRn-Tb-scm" secondAttribute="bottom" constant="3" id="tTp-z8-egn"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="mRn-Tb-scm"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <exclude reference="2fG-7y-uML"/>
+                                            <exclude reference="Ctc-KZ-WaP"/>
+                                            <exclude reference="Ith-B5-i4V"/>
+                                            <exclude reference="tTp-z8-egn"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="mRn-Tb-scm"/>
+                                        </mask>
+                                        <mask key="constraints">
+                                            <include reference="2fG-7y-uML"/>
+                                            <include reference="Ctc-KZ-WaP"/>
+                                            <include reference="Ith-B5-i4V"/>
+                                            <include reference="tTp-z8-egn"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eXk-GB-iqZ" id="AgU-WX-gg4"/>
+                            <outlet property="delegate" destination="eXk-GB-iqZ" id="Dx8-IY-uDF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="判断银行卡类型" id="ncA-bV-cfU"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpE-dy-rix" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79.5" y="102"/>
+        </scene>
+    </scenes>
+</document>

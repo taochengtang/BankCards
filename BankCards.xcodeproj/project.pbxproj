@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8541CC01BE8AD9D00A751CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CBF1BE8AD9D00A751CA /* main.m */; };
+		E8541CC31BE8AD9D00A751CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CC21BE8AD9D00A751CA /* AppDelegate.m */; };
+		E8541CC91BE8AD9D00A751CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8541CC71BE8AD9D00A751CA /* Main.storyboard */; };
+		E8541CCB1BE8AD9D00A751CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8541CCA1BE8AD9D00A751CA /* Assets.xcassets */; };
+		E8541CCE1BE8AD9D00A751CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8541CCC1BE8AD9D00A751CA /* LaunchScreen.storyboard */; };
+		E8541CD91BE8AD9D00A751CA /* BankCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CD81BE8AD9D00A751CA /* BankCardsTests.m */; };
+		E8541CE41BE8AD9D00A751CA /* BankCardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CE31BE8AD9D00A751CA /* BankCardsUITests.m */; };
+		E8541CF31BE8AE6500A751CA /* BankCards.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CF21BE8AE6500A751CA /* BankCards.m */; };
+		E8541CF61BE8AEE300A751CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8541CF51BE8AEE300A751CA /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8541CD51BE8AD9D00A751CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8541CB31BE8AD9D00A751CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8541CBA1BE8AD9D00A751CA;
+			remoteInfo = BankCards;
+		};
+		E8541CE01BE8AD9D00A751CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8541CB31BE8AD9D00A751CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8541CBA1BE8AD9D00A751CA;
+			remoteInfo = BankCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8541CBB1BE8AD9D00A751CA /* BankCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8541CBF1BE8AD9D00A751CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8541CC11BE8AD9D00A751CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8541CC21BE8AD9D00A751CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8541CC81BE8AD9D00A751CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8541CCA1BE8AD9D00A751CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8541CCD1BE8AD9D00A751CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8541CCF1BE8AD9D00A751CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8541CD41BE8AD9D00A751CA /* BankCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8541CD81BE8AD9D00A751CA /* BankCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardsTests.m; sourceTree = "<group>"; };
+		E8541CDA1BE8AD9D00A751CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8541CDF1BE8AD9D00A751CA /* BankCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8541CE31BE8AD9D00A751CA /* BankCardsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardsUITests.m; sourceTree = "<group>"; };
+		E8541CE51BE8AD9D00A751CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8541CF11BE8AE6500A751CA /* BankCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCards.h; sourceTree = "<group>"; };
+		E8541CF21BE8AE6500A751CA /* BankCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankCards.m; sourceTree = "<group>"; };
+		E8541CF41BE8AEE300A751CA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8541CF51BE8AEE300A751CA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8541CB81BE8AD9D00A751CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CD11BE8AD9D00A751CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CDC1BE8AD9D00A751CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8541CB21BE8AD9D00A751CA = {
+			isa = PBXGroup;
+			children = (
+				E8541CBD1BE8AD9D00A751CA /* BankCards */,
+				E8541CD71BE8AD9D00A751CA /* BankCardsTests */,
+				E8541CE21BE8AD9D00A751CA /* BankCardsUITests */,
+				E8541CBC1BE8AD9D00A751CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8541CBC1BE8AD9D00A751CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8541CBB1BE8AD9D00A751CA /* BankCards.app */,
+				E8541CD41BE8AD9D00A751CA /* BankCardsTests.xctest */,
+				E8541CDF1BE8AD9D00A751CA /* BankCardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8541CBD1BE8AD9D00A751CA /* BankCards */ = {
+			isa = PBXGroup;
+			children = (
+				E8541CC11BE8AD9D00A751CA /* AppDelegate.h */,
+				E8541CC21BE8AD9D00A751CA /* AppDelegate.m */,
+				E8541CF11BE8AE6500A751CA /* BankCards.h */,
+				E8541CF21BE8AE6500A751CA /* BankCards.m */,
+				E8541CF41BE8AEE300A751CA /* ViewController.h */,
+				E8541CF51BE8AEE300A751CA /* ViewController.m */,
+				E8541CC71BE8AD9D00A751CA /* Main.storyboard */,
+				E8541CCA1BE8AD9D00A751CA /* Assets.xcassets */,
+				E8541CCC1BE8AD9D00A751CA /* LaunchScreen.storyboard */,
+				E8541CCF1BE8AD9D00A751CA /* Info.plist */,
+				E8541CBE1BE8AD9D00A751CA /* Supporting Files */,
+			);
+			path = BankCards;
+			sourceTree = "<group>";
+		};
+		E8541CBE1BE8AD9D00A751CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8541CBF1BE8AD9D00A751CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8541CD71BE8AD9D00A751CA /* BankCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8541CD81BE8AD9D00A751CA /* BankCardsTests.m */,
+				E8541CDA1BE8AD9D00A751CA /* Info.plist */,
+			);
+			path = BankCardsTests;
+			sourceTree = "<group>";
+		};
+		E8541CE21BE8AD9D00A751CA /* BankCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8541CE31BE8AD9D00A751CA /* BankCardsUITests.m */,
+				E8541CE51BE8AD9D00A751CA /* Info.plist */,
+			);
+			path = BankCardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8541CBA1BE8AD9D00A751CA /* BankCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8541CE81BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCards" */;
+			buildPhases = (
+				E8541CB71BE8AD9D00A751CA /* Sources */,
+				E8541CB81BE8AD9D00A751CA /* Frameworks */,
+				E8541CB91BE8AD9D00A751CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankCards;
+			productName = BankCards;
+			productReference = E8541CBB1BE8AD9D00A751CA /* BankCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8541CD31BE8AD9D00A751CA /* BankCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8541CEB1BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCardsTests" */;
+			buildPhases = (
+				E8541CD01BE8AD9D00A751CA /* Sources */,
+				E8541CD11BE8AD9D00A751CA /* Frameworks */,
+				E8541CD21BE8AD9D00A751CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8541CD61BE8AD9D00A751CA /* PBXTargetDependency */,
+			);
+			name = BankCardsTests;
+			productName = BankCardsTests;
+			productReference = E8541CD41BE8AD9D00A751CA /* BankCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8541CDE1BE8AD9D00A751CA /* BankCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8541CEE1BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCardsUITests" */;
+			buildPhases = (
+				E8541CDB1BE8AD9D00A751CA /* Sources */,
+				E8541CDC1BE8AD9D00A751CA /* Frameworks */,
+				E8541CDD1BE8AD9D00A751CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8541CE11BE8AD9D00A751CA /* PBXTargetDependency */,
+			);
+			name = BankCardsUITests;
+			productName = BankCardsUITests;
+			productReference = E8541CDF1BE8AD9D00A751CA /* BankCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8541CB31BE8AD9D00A751CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = QuantGroup;
+				TargetAttributes = {
+					E8541CBA1BE8AD9D00A751CA = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PUYF835GYP;
+					};
+					E8541CD31BE8AD9D00A751CA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E8541CBA1BE8AD9D00A751CA;
+					};
+					E8541CDE1BE8AD9D00A751CA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E8541CBA1BE8AD9D00A751CA;
+					};
+				};
+			};
+			buildConfigurationList = E8541CB61BE8AD9D00A751CA /* Build configuration list for PBXProject "BankCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8541CB21BE8AD9D00A751CA;
+			productRefGroup = E8541CBC1BE8AD9D00A751CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8541CBA1BE8AD9D00A751CA /* BankCards */,
+				E8541CD31BE8AD9D00A751CA /* BankCardsTests */,
+				E8541CDE1BE8AD9D00A751CA /* BankCardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8541CB91BE8AD9D00A751CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8541CCE1BE8AD9D00A751CA /* LaunchScreen.storyboard in Resources */,
+				E8541CCB1BE8AD9D00A751CA /* Assets.xcassets in Resources */,
+				E8541CC91BE8AD9D00A751CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CD21BE8AD9D00A751CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CDD1BE8AD9D00A751CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8541CB71BE8AD9D00A751CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8541CC31BE8AD9D00A751CA /* AppDelegate.m in Sources */,
+				E8541CC01BE8AD9D00A751CA /* main.m in Sources */,
+				E8541CF61BE8AEE300A751CA /* ViewController.m in Sources */,
+				E8541CF31BE8AE6500A751CA /* BankCards.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CD01BE8AD9D00A751CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8541CD91BE8AD9D00A751CA /* BankCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8541CDB1BE8AD9D00A751CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8541CE41BE8AD9D00A751CA /* BankCardsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8541CD61BE8AD9D00A751CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8541CBA1BE8AD9D00A751CA /* BankCards */;
+			targetProxy = E8541CD51BE8AD9D00A751CA /* PBXContainerItemProxy */;
+		};
+		E8541CE11BE8AD9D00A751CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8541CBA1BE8AD9D00A751CA /* BankCards */;
+			targetProxy = E8541CE01BE8AD9D00A751CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8541CC71BE8AD9D00A751CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8541CC81BE8AD9D00A751CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8541CCC1BE8AD9D00A751CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8541CCD1BE8AD9D00A751CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8541CE61BE8AD9D00A751CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8541CE71BE8AD9D00A751CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8541CE91BE8AD9D00A751CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PUYF835GYP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BankCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8541CEA1BE8AD9D00A751CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PUYF835GYP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BankCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8541CEC1BE8AD9D00A751CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BankCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCards.app/BankCards";
+			};
+			name = Debug;
+		};
+		E8541CED1BE8AD9D00A751CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BankCardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankCards.app/BankCards";
+			};
+			name = Release;
+		};
+		E8541CEF1BE8AD9D00A751CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BankCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BankCards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E8541CF01BE8AD9D00A751CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BankCardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.BankCardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BankCards;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8541CB61BE8AD9D00A751CA /* Build configuration list for PBXProject "BankCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8541CE61BE8AD9D00A751CA /* Debug */,
+				E8541CE71BE8AD9D00A751CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8541CE81BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8541CE91BE8AD9D00A751CA /* Debug */,
+				E8541CEA1BE8AD9D00A751CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8541CEB1BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8541CEC1BE8AD9D00A751CA /* Debug */,
+				E8541CED1BE8AD9D00A751CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8541CEE1BE8AD9D00A751CA /* Build configuration list for PBXNativeTarget "BankCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8541CEF1BE8AD9D00A751CA /* Debug */,
+				E8541CF01BE8AD9D00A751CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8541CB31BE8AD9D00A751CA /* Project object */;
+}
